@@ -10,3 +10,7 @@ exports.helloWorld = functions.https.onRequest((request, response) => {
 exports.holimundo = functions.https.onRequest((request, response) => {
  response.send("Holi de fayerbeis!");
 });
+
+exports.test = functions.https.onRequest((request, response) => {
+ response.send("Holi de fayerbeis!");
+});
